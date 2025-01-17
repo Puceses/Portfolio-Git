@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style1.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+
+<div class="topnav">
+    <a class="active" href="index.html">Présention</a>
+    <a href="index5.html">Portfolio</a>
+    <a href="index1.html">Etudes</a>
+    <a href="index2.html">Expériences</a>
+    <a href="index3.html">Hobbies</a>
+</div> 
+
+<nav>
+    <h1><span class="material-symbols-outlined">grade</span>Clément HERBRECHT-BOURGOIN</h1>
+        <ul>
+            <li><a href=mailto:clement.herbrecht-bourgoin@etu.univ-cotedazur.fr>clement.herbrecht-bourgoin@etu.univ-cotedazur.fr</a><span class="material-symbols-outlined">call_made</span></li>
+        </ul>
+</nav>
+
+
+<section class="about">
+<h1>Bienvenue dans mon Portfolio !</h1>
+
+<p>Il est une vitrine de mes compétences et de mon parcours, où vous pourrez découvrir divers exemples de 
+   projets que j’ai réalisés, allant de la configuration de réseaux complexes à d’autres initiatives techniques.
+   Prenez le temps d’explorer mon travail, qui reflète mon engagement, ma créativité et ma maîtrise des 
+   technologies. N’hésitez pas à me contacter si vous souhaitez échanger ou en savoir plus sur mes réalisations. 
+   Bonne visite ! </p>
+
+<div class="container">
+    <div class="products-container">
+
+      <div class="product" data-name="p-7">
+         <img src="Images/topo.png" alt="">
+         <h3>Configuration d’un réseau complexe :</h3>
+         <div class="price">Voir plus</div>
+      </div>
+
+      <div class="product" data-name="p-8">
+         <img src="Images/pent.png" alt="">
+         <h3>Test d’intrusion externe sur images Docker :</h3>
+         <div class="price">Voir plus</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="Images/sae21.png" alt="">
+         <h3>Connectivité et Sécurité Réseau avec VLAN, FAI et ASA :</h3>
+         <div class="price">Voir plus</div>
+      </div> 
+
+      <div class="product" data-name="p-4">
+         <img src="Images/Thalès.png" alt="">
+         <h3>Création d'un Site Web Sécurisé et Fonctionnel sur Raspberry Pi :</h3>
+         <div class="price">Voir plus</div>
+      </div>
+ 
+       <div class="product" data-name="p-1">
+          <img src="Images/Code.png" alt="">
+          <h3>Découverte et Expérimentation à Travers la Programmation :</h3>
+          <div class="price">Voir plus</div>
+       </div>
+ 
+       <div class="product" data-name="p-2">
+          <img src="Images/Rencontre.png" alt="">
+          <h3>Immersion à la Base Militaire de Fréjus : Interview d'un Militaire SIC :</h3>
+          <div class="price">Voir plus</div>
+       </div>
+ 
+       <div class="product" data-name="p-3">
+          <img src="Images/TWD.png" alt="">
+          <h3>Progression Linguistique : Défis et Réalisations :</h3>
+          <div class="price">Voir plus</div>
+       </div>
+ 
+    </div>
+ </div>
+ 
+
+
+
+<div class="products-preview">
+ 
+   <div class="preview" data-target="p-7">
+      <i class="fas fa-times"></i>
+      <img src="Images/topo.png" alt="">
+      <h3>Configuration d’un réseau complexe</h3>
+        <p>Ce projet consiste à concevoir et configurer un réseau avancé combinant des équipements variés : switchs,
+          PC, WiFi, ASA, MLS, routeurs et téléphonie IP. La topologie inclut l’utilisation de protocoles tels que 
+          le mode trunk pour les VLANs, STP et BPDUguard pour la prévention des boucles, et HSRP pour assurer la 
+          redondance. La sécurité est renforcée grâce au DHCP Snooping et à la mise en place de VPN pour la 
+          connectivité intersites. Cette réalisation garantit un réseau performant, sécurisé et répondant aux 
+          besoins en termes de connectivité, redondance et protection des données.</p>
+    </div>
+
+    <div class="preview" data-target="p-8">
+      <i class="fas fa-times"></i>
+      <img src="Images/pent.png" alt="">
+      <h3>Test d’intrusion externe sur images Docker</h3>
+        <p>Ce projet consistait à réaliser un test d’intrusion externe pour identifier les vulnérabilités dans des 
+         images Docker, simulant une attaque sans connaissance préalable des systèmes internes. Plusieurs failles 
+         critiques ont été découvertes, dont l’exploitation d’une version vulnérable de Samba permettant un accès 
+         root et un maintien via des tâches cron. Une application web était également vulnérable à une injection de 
+         commande, facilitant l’exécution de code à distance et un pivot SSH. Enfin, l’utilisation de mots de passe 
+         par défaut a permis des accès non autorisés.</p>
+    </div>
+
+    <div class="preview" data-target="p-1">
+       <i class="fas fa-times"></i>
+       <img src="Images/Code.png" alt="">
+       <h3>Découverte et Expérimentation à Travers la Programmation</h3>
+         <p>Dans le cadre scolaire, j'ai pu apprendre différents types de code comme Java, HTML et CSS ainsi que 
+            des langages de programmation comme le C et Python. Cela m'a permis de découvrir le monde du code 
+            et d'élargir mes compétences. De plus, certains de nos projets universitaires utilisent ces compétences, 
+            on peut prendre l'exemple de notre projet sur nos passions où nous avons pu coder en HTML et CSS un site 
+            web. Personnellement j'ai choisi l'histoire et les types de jeux vidéos. Il y a également le projet 
+            Portfolio où j'ai pu créer un site plus organisé et plus complexe.</p>
+     </div>
+
+
+   <div class="preview" data-target="p-2">
+       <i class="fas fa-times"></i>
+       <img src="Images/Rencontre.png" alt="">
+       <h3>Immersion à la Base Militaire de Fréjus : Interview d'un Militaire SIC :</h3>
+       <p>Lors d'un projet, j'ai pu me rendre à la base militaire du 21ème RIMa à Fréjus afin d'interviewer un 
+         militaire SIC (Système d'information et de communication). Suite à cela j'ai dû présenter, à l'aide d'un 
+         diaporama, tout ce que j'avais appris lors de cette rencontre. De plus, j'ai pu également agrandir mon cercle
+         primaire et en profiter pour avoir plus de détails sur le métier que je souhaite faire.</p>
+    </div>
+
+
+    <div class="preview" data-target="p-3">
+       <i class="fas fa-times"></i>
+       <img src="Images/TWD.png" alt="">
+       <h3>Progression Linguistique : Défis et Réalisations :</h3>
+       <p>Au cours de cette année j'ai eu une réelle envie d'améliorer mon niveau d'anglais. Pour cela, les oraux 
+         exercés durant l'année m'ont aidé à utiliser des termes plus complexe et à fluidifier mes prises de parole. 
+         J'ai également décidé de lire, de regarder des films et des séries ainsi que jouer en anglais. 
+         C'est d'ailleurs avec l'aide du multijoueur que j'ai pu améliorer mes prises de parole grâce aux rencontres 
+         que j'ai pu faire.</p>
+    </div>
+ 
+    <div class="preview" data-target="p-4">
+       <i class="fas fa-times"></i>
+       <img src="Images/Thalès.png" alt="">
+       <h3>Création d'un Site Web Sécurisé et Fonctionnel sur Raspberry Pi :</h3>
+       <p>Lors de ce projet, j'ai appris à configurer un Raspberry Pi pour héberger un site web complet développé 
+         avec Python, PHP, HTML, CSS et JavaScript. L'objectif était de créer un site affichant de bonnes pratiques, intégrant des 
+         fonctionnalités telles que des niveaux d'accès comme administrateur, le chiffrement des mots de passe, 
+         une barre de recherche et la génération d'un tableau Excel à partir des bonnes pratiques sélectionnées et 
+         plein d'autres fonctionnalités</p>
+    </div>
+
+ 
+    <div class="preview" data-target="p-6">
+       <i class="fas fa-times"></i>
+       <img src="Images/sae21.png" alt="">
+       <h3>Connectivité et Sécurité Réseau avec VLAN et ASA :</h3>
+       <p>Afin d'assurer la connectivité au sein d'un réseau, nous avons mis en place une topologie comprenant 
+         trois VLAN connectés à un MLS (Multilayer Switch), lui-même relié à un ASA (Adaptive Security Appliance) 
+         et une DMZ. L'ASA est connecté à un FAI (Fournisseur d'Accès Internet) et à un réseau d'entreprise. 
+         L'objectif était de respecter le cahier des charges tout en garantissant la sécurité imposée par l'ASA.
+       </p>
+    </div>
+ 
+</div>
+
+</section>
+
+<footer>         
+<p>&copy; Clément HERBRECHT-BOURGOIN 2024</p>
+</footer>
+
+</body>
+</html>
